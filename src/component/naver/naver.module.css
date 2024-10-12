@@ -1,0 +1,179 @@
+.naver{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #131313;
+    font-size: 28px;
+}
+.naverMenu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    color: #131313;
+}
+.naverMenu li{
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.naverR{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.naverR button{
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.btn1{
+    background-color: #23BE0A;  
+}
+.btn2{
+    background-color: #59C6D2;
+}
+.active{
+    background-color: transparent;
+    color: #23BE0A;
+    border: 1px solid #23BE0A;
+    border-radius: 4px;
+}
+.link{
+    text-decoration: none;
+    color: #131313;
+}
+ .icon{
+    display: none;
+} 
+.icon1{
+    display: none;
+} 
+@media(max-width:1050px){
+    .naver{
+        margin-left: 30px;
+    }
+    .logo{
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    .naverMenu{
+        gap: 15px;
+        font-size: 16px;
+        gap: 1px;
+    }
+    .naverMenu li{
+        padding: 7px 15px;
+        margin-left: 10px;
+    }
+    
+    .naverR button{
+        padding: 10px 15px;
+    }
+    .btn1{
+        margin-left: 16px;
+    }
+    .btn2{
+        margin-left: 16px;
+    }
+}
+@media(max-width:900px){
+    .naver{
+        margin-left: 30px;
+    }
+    .logo{
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    .naverMenu{
+        gap: 1px;
+        font-size: 16px;
+        
+    }
+    .naverMenu li{
+        padding: 7px 15px;
+        margin-left: 10px;
+    }
+    
+    .naverR button{
+        padding: 10px 15px;
+    }
+    .btn1{
+        margin-left: 16px;
+    }
+    .btn2{
+        margin-left: 16px;
+    }
+}
+@media(max-width:750px){
+    
+    .naver{
+        margin-left: 30px;
+        border-color: #59C6D2;
+    }
+    .logo{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .naverR{
+        gap: 2px;
+    }
+    
+    .btn2{
+        margin-right: 1px;
+    }
+    .naverR button{
+        padding: 2px 7px;
+    }
+    
+    
+    .naverMenu {
+        display: block;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .naverMenu li {
+        color: #fff;
+    }
+  
+    .navul {
+        position: fixed;
+        background-color: #23BE0A;
+        height: 40vh;
+        width: 200px;
+        top: 0;
+        right: -250px; 
+        text-align: left;
+        z-index: 2;
+        transition: right 0.3s ease; 
+        border-bottom-left-radius: 30px;
+    }
+    
+    .navul.show {
+        right: 0px; 
+    }
+    
+    .icon {
+        color: green;
+        margin: 10px;
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .icon1{
+        color: rgb(0, 0, 0);
+        margin: 10px;
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    
+}

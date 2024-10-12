@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+    height: 36vw;
+    margin:50px auto;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+}
+.res{
+    position: absolute;
+    padding: 15px;
+}

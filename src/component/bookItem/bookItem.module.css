@@ -1,0 +1,102 @@
+.foodItem{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.img{
+    width: 200px;
+    height: 230px;
+    background-color: #F3F3F3;
+    margin-top: 20px ;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.foodItem img{
+    width: 90px;
+    height: 166px;
+    margin-left:50px;
+    margin-top: 30px;
+}
+.foodInfo{
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.foodInfo .btn{
+    border: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    background-color: #F4FCF3; 
+    border-radius: 40px; 
+    color: #23BE0A;
+}
+.decInf h2{
+    font-size: 20px;
+    
+    padding-bottom: 5px;
+}
+.decInf .des{
+    color: #d4d0d0;
+    font-weight: 500;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+.dot{
+    color: #bdb7b7;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.five{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.five span{
+    font-size: 30px;
+    margin-top: -20px;
+    display: block;
+    margin-left: 47px;
+}
+
+@media (max-width:912px){
+    .decInf .des{
+        text-align: center;
+    }
+    .img{ 
+        margin-left: 51px;    
+    }
+    .foodInfo{
+        margin-left: -30px;
+    }
+}
+
+@media (max-width:750px){
+    .decInf .des{
+        text-align: center;
+    }
+    .img{ 
+        margin-left: 71px;    
+    }
+    .decInf h2{
+        margin-left:1px;
+    }
+    .foodInfo{
+        margin-left: 45px;
+    }
+    
+}

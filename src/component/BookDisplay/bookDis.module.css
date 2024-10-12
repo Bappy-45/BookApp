@@ -1,0 +1,20 @@
+.foodDis{
+    margin-top: 30px;
+
+}
+.foodDis h2{
+    text-align: center;
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.BookDisList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
